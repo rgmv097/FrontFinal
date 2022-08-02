@@ -1,0 +1,100 @@
+#info-boxes{
+    overflow-x: hidden;
+    padding: 8rem 0;
+    .info-box{
+        text-align: center;
+        border: 1px solid #e7e7e7;
+        padding: 2rem 0;
+        .img{
+            
+            width: 80px;
+            margin-left: 50%;
+            transform: translateX(-50%);     
+            img{
+                width: 100%;    
+
+            }
+        }
+        .titile{
+            h5{
+                font-size: 20px;
+                margin-bottom: 10px;
+                line-height: 1.75;
+                color: #252525;
+                font-weight: 500;
+
+            }
+        }
+        .content{
+            
+            width: 80%;
+            margin-left: 20%;
+            transform: translateX(-15%);
+            
+            p{
+               
+                line-height: 26px;
+                font-size: 14px;
+                color: #7d7d7d;
+                font-weight: 400;
+            }
+        }
+    }
+}
+#send-message{
+    padding-bottom: 5rem;
+    .title{
+        margin-bottom: 5rem;
+        text-align: center;
+        p{
+            line-height: 1;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: #ff6000;
+        }
+        h2{
+            letter-spacing: .3px;
+            font-size: 35px;
+            line-height: 1.4;
+            font-weight: 500;
+            color: #252525;
+        }
+    }
+    .main{
+
+        .fname,.lname,.email,.phone{
+            width: 48%;
+            border: 1px solid #e2e2e2;
+            outline: none;
+            padding: 17px 18px;
+            border-radius: 4px;
+            padding-right: 40px;
+            line-height: 1.15;
+            margin:0 5.6px 20px;
+        }
+        textarea{
+            width: 100%;
+            max-height: 200px;
+            border: 1px solid #e2e2e2;
+            outline: none;
+            color: #757575;
+            padding: 17px 18px;
+        }
+        button{
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 4px;
+            color: #fff;
+            padding: 20px 50px;
+            margin-top: 25px;
+            background-color: #ff6000;
+            outline: none;
+            border: none;
+            
+
+        
+        }
+    }
+}

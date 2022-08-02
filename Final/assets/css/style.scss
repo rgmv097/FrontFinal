@@ -1,0 +1,101 @@
+@import "_index.scss";
+@import "_responsive.scss";
+@import "_details.scss";
+@import "_basket.scss";
+@import "_shop.scss";
+@import "_myaccount.scss";
+@import "_contact.scss";
+@import "_nice-select.scss";
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+html,body{
+  scroll-behavior: smooth;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+body{  }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 1px;
+  font-size: 15px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #ff6000;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #ff6000;  } 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+a{
+    text-decoration: none;
+}
+li {
+  list-style: none;
+}
+* {
+  &::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+  
+  }
+}
+.active-tab{
+     color: #ff6000 !important;
+}
+.active-slidebar{
+  display: block !important;
+  width: 100% !important;
+  height: 100vh !important;
+}
+.active-block{
+    display: block !important;
+}
+.active-header{  
+  top: 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+.active{
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

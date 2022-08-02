@@ -1,0 +1,352 @@
+#all-shop-prodact {
+  padding: 5rem 0;
+  .catigory {
+    .prodact-categiy {
+      .title {
+        h6 {
+          color: #252525;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        margin-bottom: 20px;
+      }
+      .box {
+        li {
+          display: flex;
+          align-items: center;
+          line-height: 1.4;
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+        a {
+          margin-left: 7px;
+          color: #252525;
+          font-size: 13px;
+        }
+      }
+    }
+    .prodact-status {
+      margin-top: 40px;
+      .title {
+        h6 {
+          color: #252525;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        margin-bottom: 20px;
+      }
+      .box {
+        li {
+          display: flex;
+          align-items: center;
+          line-height: 1.4;
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+        a {
+          margin-left: 7px;
+          color: #252525;
+          font-size: 13px;
+        }
+      }
+    }
+    .colors,
+    .sizes {
+      margin-top: 40px;
+      .title {
+        h6 {
+          color: #252525;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        margin-bottom: 20px;
+      }
+      .box {
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          line-height: 1.4;
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+        a {
+          margin-left: 7px;
+          color: #252525;
+          font-size: 13px;
+        }
+        span {
+          padding: 1px 0;
+          width: 25px;
+          height: 25px;
+          border-radius: 6px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #7d7d7d;
+          background-color: #dedcdc;
+        }
+      }
+    }
+    .avarage-raiting {
+      i {
+        font-size: 10px;
+        margin-right: -5px;
+        color: #ffa800;
+      }
+      span {
+        margin-left: 10px;
+      }
+      margin-top: 40px;
+      .title {
+        h6 {
+          color: #252525;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        margin-bottom: 20px;
+      }
+      .ratings {
+        .rating5 {
+        }
+      }
+    }
+    .search {
+      border-radius: 5px;
+      margin: 50px 0;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #e2e2e2;
+      input {
+        outline: none;
+        font-size: 20px;
+        width: 77%;
+        padding: 10px;
+        border: none;
+      }
+      button {
+        font-size: 15px;
+        width: 25%;
+        padding: 1rem;
+        outline: none;
+        border: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: #e2e2e2;
+        &:hover {
+          background-color: #ff6100;
+          color: #f2f2f2;
+        }
+      }
+    }
+    .product-tags {
+      margin-bottom: 30px;
+      a {
+        display: inline-block;
+        margin: 0 0 7px;
+        padding: 7px 12px;
+        border-radius: 4px;
+        color: #252525;
+        font-size: 14px;
+        background-color: #f2f2f2;
+        &:hover {
+          background-color: #ff6100;
+          color: #fff;
+        }
+      }
+    }
+    .on-sales-products,
+    .other-on-sales-products {
+      .title {
+        h6 {
+          color: #252525;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        margin-bottom: 20px;
+      }
+      .boxes {
+        i {
+          font-size: 10px;
+          margin: 0px -3px;
+          color: #f7ba01;
+        }
+        span {
+          margin-right: 5px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1;
+          color: #ff6000;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          color: #252525;
+          cursor: pointer;
+        }
+        .img {
+          width: 80px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .prodacts {
+    .modern-echnology,.medern-texnalogy-bottom {
+      background-position: center;
+      background-size: cover;
+      background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-1.jpg) !important;
+      border: 1px solid #f1f0f0;
+      border-radius: 3px;
+      padding: 1rem;
+      .content {
+        width: 60%;
+      }
+
+      span {
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1;
+        color: #7d7d7d;
+      }
+      h3 {
+        font-size: 28px;
+        line-height: 1.6;
+        font-weight: 500;
+        color: #252525;
+        margin: 10px 0;
+      }
+      p {
+        line-height: 1.8;
+        font-weight: 400;
+        font-size: 15px;
+        color: #7d7d7d;
+      }
+      a {
+        margin-top: 20px;
+        font-size: 13px;
+        padding: 9px 1rem;
+        font-weight: bold;
+        &:hover {
+          background-color: #252525;
+        }
+      }
+    }
+    .catigories-slider {
+      background-color: #f2f2f2;
+      padding: 1rem 1rem 3rem;
+      border-radius: 5px;
+      .title {
+        margin-bottom: 30px;
+        h4 {
+          font-size: 22px;
+          line-height: 1.75;
+          font-weight: 500;
+          color: #252525;
+        }
+      }
+      .box {
+        h4 {
+          font-size: 15px;
+          margin-top: 10px;
+          line-height: 1.75;
+          font-weight: 500;
+        }
+        .box-img {
+          width: 100px;
+          height: 95px;
+          position: relative;
+        }
+        img {
+          width: 100%;
+        }
+        span {
+          margin-left: 10px;
+          background: #ff6100;
+          width: 16px;
+          height: 19px;
+          color: #fff;
+          text-align: center;
+          display: inline-block;
+          font-size: 11px;
+          position: absolute;
+          vertical-align: middle;
+          padding: 3px;
+          border-radius: 3px;
+          top: 8px;
+          left: -7px;
+        }
+      }
+    }
+    .izotop-prodact {
+      padding: 3rem 0;
+      .path {
+        a {
+          color: #252525;
+          font-size: 14px;
+        }
+        span {
+          color: #888;
+          font-weight: 400;
+          font-size: 14px;
+        }
+      }
+      .right {
+        .frist {
+          span {
+            color: #252525;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+        .second {
+          a {
+            font-size: 14px;
+            border: 1px solid #cac9c9;
+            padding: 4px 4px 7px;
+            margin-right: 5px;
+            border-radius: 5px;
+            &:hover {
+              border: 1px solid #252525;
+            }
+            &:focus {
+              border: 1px solid #252525;
+              svg {
+                fill: #252525;
+              }
+            }
+          }
+          svg {
+            fill: #7d7d7d;
+          }
+        }
+      }
+    }
+    .chance-page {
+        padding: 5rem 0;
+        
+      span {
+        margin: 0 5px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 50px;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        padding:  0 20px;
+        cursor: pointer;
+      }
+    }
+    .medern-texnalogy-bottom{
+        background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/banner-2.jpg) !important;
+    }
+  }
+}
